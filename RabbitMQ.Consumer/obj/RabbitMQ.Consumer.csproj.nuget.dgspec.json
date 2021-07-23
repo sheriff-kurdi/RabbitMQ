@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/kurdi/dotnet/RabbitMQ/RabbitMQ.Consumer/RabbitMQ.Consumer.csproj": {}
+  },
+  "projects": {
+    "/home/kurdi/dotnet/RabbitMQ/RabbitMQ.Consumer/RabbitMQ.Consumer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/kurdi/dotnet/RabbitMQ/RabbitMQ.Consumer/RabbitMQ.Consumer.csproj",
+        "projectName": "RabbitMQ.Consumer",
+        "projectPath": "/home/kurdi/dotnet/RabbitMQ/RabbitMQ.Consumer/RabbitMQ.Consumer.csproj",
+        "packagesPath": "/home/kurdi/.nuget/packages/",
+        "outputPath": "/home/kurdi/dotnet/RabbitMQ/RabbitMQ.Consumer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/kurdi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

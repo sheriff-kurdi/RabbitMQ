@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "p+ba/nbKmahlw7Cx2rVVf0gI1erYkpISuIkIooyth/KDkxefN/k/gFEssUzGojnsV13g3XO0lsl/YpKqLVgASA==",
+  "success": true,
+  "projectFilePath": "/home/kurdi/dotnet/RabbitMQ/RabbitMQ.Consumer/RabbitMQ.Consumer.csproj",
+  "expectedPackageFiles": [
+    "/home/kurdi/.nuget/packages/rabbitmq.client/6.2.2/rabbitmq.client.6.2.2.nupkg.sha512",
+    "/home/kurdi/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
+    "/home/kurdi/.nuget/packages/system.threading.channels/4.7.1/system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
