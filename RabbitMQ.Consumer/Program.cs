@@ -21,14 +21,8 @@ namespace RabbitMQ.Consumer
                 exclusive: false,
                 autoDelete: false,
                 arguments: null);
-            EventingBasicConsumer consumer = new EventingBasicConsumer(channel);
-            consumer.Received += (sender, e) =>
-            {
-                var body = e.Body.ToArray();
-                var message = Encoding.UTF8.GetString(body);
-                System.Console.WriteLine(message);
-            };
-            channel.BasicConsume("demo-queue", true, consumer);
+
+            Consumer.Consume(channel);          
             Console.ReadLine();
 
             Console.WriteLine("done!");
